@@ -1,0 +1,11 @@
+@import 'var.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+@import '_utilities.scss';
+@import '_generics.scss';
+
+
+// FONT
+
+*{
+    font-family: 'Roboto', sans-serif;
+}

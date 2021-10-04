@@ -1,0 +1,64 @@
+
+.gradient-blue {
+  background: rgb(26, 178, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 178, 237, 1) 0%,
+    rgba(30, 64, 132, 1) 95%);
+  border-radius: 10px;
+  color: #fff;
+}
+.gradient-pink {
+  background: rgb(191, 44, 110);
+  background: linear-gradient(
+    90deg,
+    rgba(191, 44, 110, 1) 0%,
+    rgba(244, 90, 103, 1) 95%);
+  border-radius: 10px;
+  color: #fff;
+}
+
+
+button.white-back {
+  background-color: #fff;
+  color: #F9636B;
+}
+
+
+.try:hover {
+  background: rgb(26, 178, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 178, 237, 1) 0%,
+    rgba(30, 64, 132, 1) 95%);
+  border-radius: 10px;
+  color: #fff;
+}
+  
+.explore:hover {
+  background: rgb(191, 44, 110);
+  background: linear-gradient(
+    90deg,
+    rgba(191, 44, 110, 1) 0%,
+    rgba(244, 90, 103, 1) 95%);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.button-box-shadow{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.clickable{
+  cursor: pointer;
+}
+.layover{
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.azul-color{
+  color: #03A7D3E6;
+}
