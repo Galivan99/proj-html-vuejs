@@ -28,9 +28,7 @@
         <div class="row py-5">
           <div class="col-12 text-center">
             <button
-              class="mx-3 gradient-pink btn button-box-shadow"
-              type="button"
-            >
+              class="mx-3 gradient-pink btn try" type="button">
               View All Services
             </button>
           </div>
@@ -85,7 +83,7 @@
         <!-- Row for title -->
         <div class="row justify-content-between">
           <div class="col-4 section-title mt-4">
-            <p class="light-grey">Portfolio</p>
+            <p class="pink-p">Portfolio</p>
             <h3 class="fs-25p"><strong>latest</strong> work</h3>
           </div>
           <div
@@ -157,8 +155,8 @@
         </div>
         <div class="row">
           <!-- Row per i posts -->
-          <div class="col-5 white main-post h-350">
-            <div class="layover d-flex align-items-end p-5">
+          <div class="col-5 white main-post h-350 p-0">
+            <div class="layover d-flex align-items-end pb-2">
               <div class="article-preview">
                 <div class="post-details my-2 ">
                   <time>April 21, 2019</time>
@@ -172,7 +170,7 @@
                   the meridiana sun s...
                 </p>
               </div>
-              <button type="button" class="btn white-back mt-5 w-100p">
+              <button type="button" class="btn white-back">
                 Read More
               </button>
             </div>
@@ -334,29 +332,21 @@
         </div>
       </div>
     </section>
-    <section id="subscription">
+    <section id="subscription ">
       <div class="container">
         <div
-          class="
-            row
-            align-items-center
-            justify-content-between
-            subscription-box
-            gradient-pink
-            p-4
-          "
-        >
-          <div class="col-6">
+          class="d-flex align-items-center justify-content-between subscription-box gradient-pink p-4">
+          <div class="col-6 ">
             <h3 class="fw-bolder fs-2 white">We Offer Awesome Services</h3>
             <p class="white">
               When, while lovely valley teems with vapour around meand meridian
               sun strikes the upper surface .
             </p>
           </div>
-          <div class="col-6">
+          <div class="col-4">
             <div class="input-subscription d-flex justify-content-between">
-              <input type="text" placeholder="Enter Your Email Address" />
-              <button type="button" class="btn gradient-blue">Subscribe</button>
+              <input type="text" placeholder="Enter Your Email Address">
+              <button type="button" class="btn gradient-blue mx-3 explore">Subscribe</button>
             </div>
           </div>
         </div>
@@ -422,10 +412,10 @@ export default {
 }
 //  Sezione Latest Posts
 #latest-posts {
-  margin-top: 350px;
+  margin-top: 500px;
   button {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 25px;
     color: #000;
   }
 }
@@ -434,6 +424,11 @@ export default {
   background-position: center;
   background-size: cover;
   border-radius: 20px;
+}
+
+.article-preview{
+  padding: 15px 0px 15px 15px;
+  width: 440px;
 }
 // Sezione What People Say
 .people-img-container {
@@ -462,14 +457,16 @@ export default {
 .input-subscription {
   background-color: #fff;
   border-radius: 20px;
-  width: 50%;
+  width: 400px;
   height: 35px;
   padding: 5px;
+
   input {
     border-color: transparent;
   }
   button {
     border-radius: 20px;
+    line-height: 2px;
   }
 }
 </style>

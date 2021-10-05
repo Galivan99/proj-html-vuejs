@@ -38,14 +38,15 @@ export default {
 
 <style scoped lang="scss">
 .card {
-  height: 450px;
+  display: flex;
+
   border-radius: 20px;
   border-color: transparent;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 button {
   width: 140px;
-  border-radius: 10px;
+  border-radius: 25px;
   color: #fff;
 }
 .pink-button {

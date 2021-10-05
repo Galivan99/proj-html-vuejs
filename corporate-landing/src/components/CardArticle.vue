@@ -1,16 +1,16 @@
 <template>
   <div class="col-3 secondary-post p-4 mx-4 h-350 white">
-    <div class="post-details my-5">
+    <div class="post-details">
       <time>{{ info.time }}</time>
       <span> &bull; <span>By Paul</span></span>
     </div>
     <h5 class="my-5">
       {{ info.title }}
     </h5>
-    <p class="my-5">
+    <p>
       {{ info.text }}
     </p>
-    <button type="button" class="btn white-back black-text mt-5">
+    <button type="button" class="btn white-back black-text">
       Read More
     </button>
   </div>
@@ -32,7 +32,8 @@ export default {
 }
 button {
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 25px;
+  margin-top:0px;
   &.black-text {
     color: #000;
   }
